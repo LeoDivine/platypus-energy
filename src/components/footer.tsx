@@ -33,18 +33,18 @@ export default function Footer() {
           <hr className="border-[#e2b22d] hidden lg:inline" />
         </div>
         <div className="mt-[20px] w-full xl:w-[10%] md:w-[20%] lg:mt-0 text-white">
-          <h1>USEFUL LINKS</h1>
+          <h1 className="font-bold">USEFUL LINKS</h1>
           <hr className="border-[#e2b22d]" />
           <Linkinfo info={LINK_INFORMATION} />
         </div>
         <div className="text-white lg:mt-[20px] mt-[20px]">
-          <h1>CONNECT WITH US ON:</h1>
+          <h1 className="font-bold">CONNECT WITH US ON:</h1>
           <hr className="border-[#e2b22d]" />
           <Socialinfo socials={SOCIALDETAILS} />
         </div>
       </div>
       <div className="bg-[#1f1f1f] text-center text-white p-[20px]">
-        <p>© Copyright 2023 | Tee-Services </p>
+        <p className="font-bold">© Copyright 2023 | Platypus Solar Energy </p>
       </div>
     </>
   );

@@ -16,7 +16,7 @@ export default function Home() {
       {" "}
       <div className='bg-fixed bg-[url("/homebg.jpeg")] h-screen w-full  bg-cover bg-no-repeat'>
         <div className="bg-gradient-to-r from-[#000000dc] to-[#00000096] absolute w-full h-screen">
-          <hgroup className="text-white lg:text-left text-center flex flex-col lg:items-start items-center px-[20px] xl:py-[200px] md:py-[10px] lg:pl-[40px] py-[250px]">
+          <hgroup className="text-white lg:text-left text-center flex flex-col lg:items-start items-center px-[20px] lg:py-[200px] xl:py-[200px] md:py-[10px] lg:pl-[40px] py-[250px]">
             <h3 className="lg:text-[60px] text-[30px] lg:w-[50%] font-bold">
               Let Tee-Services be your plug!!
             </h3>
@@ -24,9 +24,9 @@ export default function Home() {
               24hr electricity and neat maintenance just for you
             </p>
             <Link className="" href="/services">
-              <button className="flex bg-[#e2b22d] hover:bg-[#333] hover:text-[#e2b22d] transition-all lg:ml-0 lg:mx-[100px] px-[30px] py-[10px] lg:px-[20px] text-[#333] mt-[10px]">
+              <button className="group flex bg-[#e2b22d] hover:bg-[#333] hover:text-[#e2b22d] transition-all lg:ml-0 lg:mx-[100px] px-[30px] py-[10px] lg:px-[20px] text-[#333] mt-[10px] items-center">
                 Our Services{" "}
-                <span className="mt-[3px] ml-[10px] hover:text-[#e2b22d]">
+                <span className="group-hover:translate-x-2 transition-all ml-[10px] hover:text-[#e2b22d]">
                   {CaretRight}
                 </span>
               </button>
@@ -48,7 +48,7 @@ export default function Home() {
           link="/about"
           emphasis="About"
           header="the company"
-          content="Sint sunt cupidatat dolore labore Lorem ipsum laborum nulla magna excepteur aute eu. Quis dolor fugiat consequat enim exercitation consectetur culpa duis consequat ea ullamco ex. Esse tempor veniam id consequat. Excepteur consectetur cillum excepteur exercitation amet aliquip aliqua id enim cillum non consequat Lorem. Labore est id nulla officia ex nostrud sunt elit mollit eu ut. Occaecat aliqua aliqua duis laboris proident."
+          content="At Platypus Solar Energy we are more than just a company, we are your reliable plug for uninterrupted power supply, we also help you understand how inverters work and how they operate, giving you an understanding on how to take care of your inverters and keep them at best performance. We are commited to providing cutting-edge power solutions"
           image="/service.jpg"
         />
         <div className="pb-[40px] pt-[30px] w-full">
@@ -79,14 +79,18 @@ export default function Home() {
             >
               <AccordionItem value="item-1">
                 <AccordionTrigger className="">
-                  What is an inverter
+                  What Features to Look For in the Best Inverter For Home?
                 </AccordionTrigger>
                 <AccordionContent>
-                  An inverter can be defined as an electric power converter
-                  responsible for: - Converting alternate current from the grid
-                  to direct current to charge the battery - Again converting
-                  direct current from the battery into an alternating current
-                  for running devices like fans, lights etc. during a power cut.
+                  - LCD Display: Inverters with LCD display show the Backup time
+                  remaining in case of power cut and battery charging time in
+                  case when grid supply is normal. It helps user to plan
+                  activities efficiently and effectively. Heiwa and iChallenger
+                  series are equipped with LCD displays. - Fast Battery
+                  charging: In areas where there are frequent power cuts, it
+                  becomes imperative for inverter to charge the battery faster
+                  so that maximum backup is available in the next outage. Below
+                  are features available in the inverters these days.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -97,14 +101,19 @@ export default function Home() {
             >
               <AccordionItem value="item-1">
                 <AccordionTrigger className="">
-                  What is an inverter
+                  What is meant by 12 V inverter? How is it different from 24V
+                  inverter?
                 </AccordionTrigger>
                 <AccordionContent>
-                  An inverter can be defined as an electric power converter
-                  responsible for: - Converting alternate current from the grid
-                  to direct current to charge the battery - Again converting
-                  direct current from the battery into an alternating current
-                  for running devices like fans, lights etc. during a power cut.
+                  Every INVERTER is rated in VA and Volt. VA is the capacity of
+                  an INVERTER to run peak load and volt specifies the battery
+                  voltage for which the inverter is designed. The battery which
+                  is used in INVERTER application is lead acid battery with
+                  voltage in multiples of 12 Volt. Each lead acid battery has 6
+                  cells of 2V each which gives the total voltage as 12V. Hence,
+                  a 12 Volt INVERTER means that it is designed to operate with 1
+                  battery. A 24V inverter means that it is designed to operate
+                  with 2 lead acid batteries.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -112,20 +121,7 @@ export default function Home() {
               className="text-[#333] px-[20px] bg-[#e2b22d]"
               type="single"
               collapsible
-            >
-              <AccordionItem value="item-1">
-                <AccordionTrigger className="">
-                  What is an inverter
-                </AccordionTrigger>
-                <AccordionContent>
-                  An inverter can be defined as an electric power converter
-                  responsible for: - Converting alternate current from the grid
-                  to direct current to charge the battery - Again converting
-                  direct current from the battery into an alternating current
-                  for running devices like fans, lights etc. during a power cut.
-                </AccordionContent>
-              </AccordionItem>
-            </Accordion>
+            ></Accordion>
           </div>
         </div>
       </div>

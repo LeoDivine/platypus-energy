@@ -21,7 +21,7 @@ export default function About() {
         <SectionComp2
           header="TEE - SERVICES"
           emphasis="About"
-          content="Adipisicing velit laboris Lorem minim adipisicing dolore velit quis. Cillum commodo nulla ullamco ullamco Lorem laboris officia. Anim nostrud ea consequat culpa elit qui pariatur ex. Enim exercitation culpa ex Lorem sit Lorem sunt deserunt. Ullamco sunt elit magna consequat veniam ullamco pariatur. Dolor proident quis Lorem reprehenderit. Irure ullamco anim laboris cupidatat aliquip exercitation quis."
+          content="At Platypus Solar Energy, we believe in putting our customers at the highest values by listening to their needs and problems giving them tailor-made solutions. Our dedication to customer support sets us apart. Our uncompromised quality is a set standard in Platypus Solar Energy, with tough testings done on our inverters, we believe they can stand the test of times. We deliver both for commercial and residential"
           image="/service.jpg"
           link=""
           className="flex-row-reverse"

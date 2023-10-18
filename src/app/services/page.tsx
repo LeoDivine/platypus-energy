@@ -1,5 +1,11 @@
 import Servicescomp from "@/components/servicescomp";
-import { Delivery, Installation, Maintenance, Support } from "@/utils/icons";
+import {
+  Delivery,
+  Installation,
+  Maintenance,
+  Notice,
+  Support,
+} from "@/utils/icons";
 import React from "react";
 
 export default function Services() {
@@ -18,6 +24,23 @@ export default function Services() {
         <Servicescomp icon={Installation} content="Installation" />
         <Servicescomp icon={Maintenance} content="Maintenance" />
         <Servicescomp icon={Support} content="Support" />
+      </div>
+      <div className="px-[30px]">
+        <h1 className="text-[30px] flex items-center text-[#333]">
+          <span className="hidden lg:inline-block"> {Notice} </span> Delivery and Installations
+        </h1>
+        <div className="lg:px-[48px] pb-5">
+          <p>
+            We recommend that you always use a Platypus Solar Energy approved
+            installer for your installations. Our installers will help you
+            understand how the inverter works and under what condition it should
+            operate. There are certain guidelines such as which appliances
+            should not be used with your inverter system as well as certain tips
+            to ensure that your batteries last longer. Your installer will help
+            you these so that you can the most out of your purchase. We also
+            provide delivery service if required.
+          </p>
+        </div>
       </div>
     </div>
   );

@@ -18,7 +18,7 @@ export default function Home() {
         <div className="bg-gradient-to-r from-[#000000dc] to-[#00000096] absolute w-full h-screen">
           <hgroup className="text-white lg:text-left text-center flex flex-col lg:items-start items-center px-[20px] lg:py-[200px] xl:py-[200px] md:py-[10px] lg:pl-[40px] py-[250px]">
             <h3 className="lg:text-[60px] text-[30px] lg:w-[50%] font-bold">
-              Let Tee-Services be your plug!!
+              Let Platypus Solar Energy be your plug!!
             </h3>
             <p className="lg:w-[25%] mt-[10px]">
               24hr electricity and neat maintenance just for you
@@ -39,7 +39,7 @@ export default function Home() {
           link="/services"
           emphasis="Services"
           header="we offer"
-          content="Sint sunt cupidatat dolore labore Lorem ipsum laborum nulla magna excepteur aute eu. Quis dolor fugiat consequat enim exercitation consectetur culpa duis consequat ea ullamco ex. Esse tempor veniam id consequat. Excepteur consectetur cillum excepteur exercitation amet aliquip aliqua id enim cillum non consequat Lorem. Labore est id nulla officia ex nostrud sunt elit mollit eu ut. Occaecat aliqua aliqua duis laboris proident."
+          content="Our technical team will work with you to determine what kind of inverter you need. Depending on your load, usage condition, priority appliances and budget. If required we can arrange for a site inspection and load estimation which will help you to better determine the kind of backup solution that you need."
           image="/service.jpg"
           className="lg:text-left"
         />

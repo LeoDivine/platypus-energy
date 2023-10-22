@@ -78,7 +78,7 @@ export default function Home() {
               collapsible
             >
               <AccordionItem value="item-1">
-                <AccordionTrigger className="">
+                <AccordionTrigger className="text-left">
                   What Features to Look For in the Best Inverter For Home?
                 </AccordionTrigger>
                 <AccordionContent>
@@ -100,7 +100,7 @@ export default function Home() {
               collapsible
             >
               <AccordionItem value="item-1">
-                <AccordionTrigger className="">
+                <AccordionTrigger className="text-left">
                   What is meant by 12 V inverter? How is it different from 24V
                   inverter?
                 </AccordionTrigger>

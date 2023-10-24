@@ -1,3 +1,4 @@
+import { Delivery } from "@/utils/icons";
 import React from "react";
 
 export default function Services() {
@@ -11,8 +12,16 @@ export default function Services() {
           </div>
         </div>
       </div>
-      <div className="h-[1000px] lg:flex-row flex-col flex justify-around text-[#333] gap-[30px] mt-[20px] px-[30px] mb-[30px]">
-        ojfeiffjiejfeieje
+      <div className="lg:flex-row flex-col flex justify-around flex-wrap text-[#333] gap-[30px] mt-[20px] px-[30px] mb-[30px]">
+        <div className="bg-[#e2b22d] justify-between p-[20px] flex w-[45%] rounded-[20px] h-[200px]">
+          <div className="">
+            <h1 className="text-[20px]">Delivery and Installation</h1>
+          </div>
+          <div className="my-auto">{Delivery}</div>
+        </div>
+        <div className="bg-[#e2b22d] w-[45%] rounded-[20px] h-[200px]"></div>
+        <div className="bg-[#e2b22d] w-[45%] rounded-[20px] h-[200px]"></div>
+        <div className="bg-[#e2b22d] w-[45%] rounded-[20px] h-[200px]"></div>
       </div>
     </div>
   );

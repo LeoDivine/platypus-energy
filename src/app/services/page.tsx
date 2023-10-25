@@ -19,7 +19,7 @@ export default function Services() {
         </div>
       </div>
       <div className="lg:flex-row flex-col flex justify-around flex-wrap text-[#333] gap-[30px] mt-[20px] px-[30px] mb-[30px]">
-        <div className="bg-[#e2b22d] justify-between p-[20px] flex w-[45%] rounded-[20px]">
+        <div className="bg-[#e2b22d] justify-between p-[20px] lg:flex lg:w-[45%] rounded-[20px]">
           <div className="">
             <h1 className="text-[20px]">Delivery and Installation</h1>
             <p className="mt-[20px]">
@@ -33,11 +33,11 @@ export default function Services() {
               purchase. We also provide delivery service if required.
             </p>
           </div>
-          <div className="my-auto ml-3">{Delivery}</div>
+          <div className="my-auto hidden lg:inline-block ml-3">{Delivery}</div>
         </div>
-        <div className="bg-[#e2b22d] justify-between p-[20px] flex w-[45%] rounded-[20px]">
+        <div className="bg-[#e2b22d] justify-between p-[20px] lg:flex lg:w-[45%] rounded-[20px]">
           <div className="">
-            <h1 className="text-[20px]">Delivery and Installation</h1>
+            <h1 className="text-[20px]">Maintenance</h1>
             <p className="mt-[20px]">
               We recommend that you always use a Platypus Solar Energy approved
               installer for your installations. Our installers will help you
@@ -49,11 +49,13 @@ export default function Services() {
               purchase. We also provide delivery service if required.
             </p>
           </div>
-          <div className="my-auto ml-3">{Maintenance}</div>
+          <div className="my-auto hidden lg:inline-block ml-3">
+            {Maintenance}
+          </div>
         </div>
-        <div className="bg-[#e2b22d] justify-between p-[20px] flex w-[45%] rounded-[20px]">
+        <div className="bg-[#e2b22d] justify-between p-[20px] lg:flex lg:w-[45%] rounded-[20px]">
           <div className="">
-            <h1 className="text-[20px]">Delivery and Installation</h1>
+            <h1 className="text-[20px]">Support</h1>
             <p className="mt-[20px]">
               We recommend that you always use a Platypus Solar Energy approved
               installer for your installations. Our installers will help you
@@ -65,7 +67,7 @@ export default function Services() {
               purchase. We also provide delivery service if required.
             </p>
           </div>
-          <div className="my-auto ml-3">{Support}</div>
+          <div className="my-auto hidden lg:inline-block ml-3">{Support}</div>
         </div>
       </div>
     </div>

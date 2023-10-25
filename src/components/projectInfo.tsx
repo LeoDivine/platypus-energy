@@ -8,7 +8,7 @@ interface PROJECTINFO{
 export default function ProjectInfo({image}:PROJECTINFO) {
   return (
     <div>
-        <Image src={image} alt='project image' height="200" width="200" />
+        <Image className='rounded-[20px] w-full p-[20px]' src={image} alt='project image' height="200" width="200" />
     </div>
   )
 }

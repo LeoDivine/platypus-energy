@@ -33,11 +33,40 @@ export default function Services() {
               purchase. We also provide delivery service if required.
             </p>
           </div>
-          <div className="my-auto">{Delivery}</div>
+          <div className="my-auto ml-3">{Delivery}</div>
         </div>
-        <div className="bg-[#e2b22d] w-[45%] rounded-[20px] h-[200px]"></div>
-        <div className="bg-[#e2b22d] w-[45%] rounded-[20px] h-[200px]"></div>
-        <div className="bg-[#e2b22d] w-[45%] rounded-[20px] h-[200px]"></div>
+        <div className="bg-[#e2b22d] justify-between p-[20px] flex w-[45%] rounded-[20px]">
+          <div className="">
+            <h1 className="text-[20px]">Delivery and Installation</h1>
+            <p className="mt-[20px]">
+              We recommend that you always use a Platypus Solar Energy approved
+              installer for your installations. Our installers will help you
+              understand how the inverter works and under what condition it
+              should operate. There are certain guidelines such as which
+              appliances should not be used with your inverter system as well as
+              certain tips to ensure that your batteries last longer. Your
+              installer will help you these so that you can the most out of your
+              purchase. We also provide delivery service if required.
+            </p>
+          </div>
+          <div className="my-auto ml-3">{Maintenance}</div>
+        </div>
+        <div className="bg-[#e2b22d] justify-between p-[20px] flex w-[45%] rounded-[20px]">
+          <div className="">
+            <h1 className="text-[20px]">Delivery and Installation</h1>
+            <p className="mt-[20px]">
+              We recommend that you always use a Platypus Solar Energy approved
+              installer for your installations. Our installers will help you
+              understand how the inverter works and under what condition it
+              should operate. There are certain guidelines such as which
+              appliances should not be used with your inverter system as well as
+              certain tips to ensure that your batteries last longer. Your
+              installer will help you these so that you can the most out of your
+              purchase. We also provide delivery service if required.
+            </p>
+          </div>
+          <div className="my-auto ml-3">{Support}</div>
+        </div>
       </div>
     </div>
   );

@@ -52,12 +52,15 @@ export default function About() {
                 </span>
               </Link>
               <div className="flex gap-3 items-center">
-                <Link className="hover:underline" href="">
+                <Link className="hover:underline" href="tel:+2349069390152">
                   <span className="mt-[10px] flex items-center gap-3 text-[#e2b22d]">
                     {PhoneIcon} <p className="text-[#333]">+234 906 9390 152</p>
                   </span>
                 </Link>
-                <Link className="mt-[10px] hover:underline" href="">
+                <Link
+                  className="mt-[10px] hover:underline"
+                  href="+2348032802175"
+                >
                   <p>+234 803 2802 175</p>
                 </Link>
               </div>

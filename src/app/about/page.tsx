@@ -19,7 +19,7 @@ export default function About() {
       </div>
       <>
         <SectionComp2
-          header="TEE - SERVICES"
+          header="Platypus Solar Energy"
           emphasis="About"
           content="At Platypus Solar Energy, we believe in putting our customers at the highest values by listening to their needs and problems giving them tailor-made solutions. Our dedication to customer support sets us apart. Our uncompromised quality is a set standard in Platypus Solar Energy, with tough testings done on our inverters, we believe they can stand the test of times. We deliver both for commercial and residential"
           image="/service.jpg"
@@ -34,7 +34,7 @@ export default function About() {
             Get your <span className="text-[#e2b22d]">inverter</span> today
           </h1>
           <div className="lg:flex gap-8 mt-[20px] justify-center">
-            <div className="border-[#e2b22d] border-2 rounded-[10px] w-full xl:w-[40%] xl:px-[50px] px-[10px] py-[20px] text-[#333] md:w-[100%] md:px-[20px]">
+            <div className="border-[#e2b22d] border-2 rounded-[10px] w-full xl:w-[45%] xl:px-[50px] px-[10px] py-[20px] text-[#333] md:w-[100%] md:px-[20px]">
               <p>
                 Request for your installations or maintenance by contacting us
                 via the available mediums.
@@ -42,20 +42,25 @@ export default function About() {
               <p className="pt-[20px]">Contact Details</p>
               <Link
                 className="hover:underline"
-                href="mailto:joshuaebubechukwu1@gmail.com?subject=Enquiries"
+                href="mailto:platypussolarenergy@gmail.com?subject=Enquiries"
               >
                 <span className="mt-[10px] flex items-center gap-3 text-[#e2b22d]">
                   {EmailIcon}{" "}
                   <p className="text-[#333] text-[13px] lg:text-[16px]">
-                    joshuaebubechukwu1@gmail.com
+                    platypussolarenergy@gmail.com
                   </p>
                 </span>
               </Link>
-              <Link className="hover:underline" href="">
-                <span className="mt-[10px] flex items-center gap-3 text-[#e2b22d]">
-                  {PhoneIcon} <p className="text-[#333]">+234 906 9390 152</p>
-                </span>
-              </Link>
+              <div className="flex gap-3 items-center">
+                <Link className="hover:underline" href="">
+                  <span className="mt-[10px] flex items-center gap-3 text-[#e2b22d]">
+                    {PhoneIcon} <p className="text-[#333]">+234 906 9390 152</p>
+                  </span>
+                </Link>
+                <Link className="mt-[10px] hover:underline" href="">
+                  <p>+234 803 2802 175</p>
+                </Link>
+              </div>
               <p className="pt-[20px]">Our Socials</p>
               <Socialinfo socials={SOCIALDETAILS} />
             </div>

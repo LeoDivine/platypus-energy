@@ -31,18 +31,18 @@ export const LINK_INFORMATION = [
 export const SOCIALDETAILS = [
   {
     icon: InstagramIcon,
-    link: "/",
+    link: "https://instagram.com/platypus_solar?igshid=MzMyNGUyNmU2YQ%3D%3D&utm_source=qr",
   },
-  {
-    icon: TwitterIcon,
-    link: "/",
-  },
-  {
-    icon: FacebookIcon,
-    link: "/",
-  },
+  // {
+  //   icon: TwitterIcon,
+  //   link: "/",
+  // },
+  // {
+  //   icon: FacebookIcon,
+  //   link: "/",
+  // },
   {
     icon: WhatsappIcon,
-    link: "/",
+    link: "https://wa.link/fmiyex",
   },
 ];

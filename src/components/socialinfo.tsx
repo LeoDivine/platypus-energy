@@ -10,7 +10,7 @@ interface SOCIALINFO {
 
 export default function Socialinfo({ socials }: SOCIALINFO) {
   return (
-    <div className="flex justify-around mt-[20px]">
+    <div className="flex gap-2 mt-[20px]">
       {socials.map((i, k) => (
         <Sociallink icon={i.icon} link={i.link} key={k} />
       ))}

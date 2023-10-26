@@ -39,14 +39,14 @@ export default function Services() {
           <div className="">
             <h1 className="text-[20px]">Maintenance</h1>
             <p className="mt-[20px]">
-              We recommend that you always use a Platypus Solar Energy approved
-              installer for your installations. Our installers will help you
-              understand how the inverter works and under what condition it
-              should operate. There are certain guidelines such as which
-              appliances should not be used with your inverter system as well as
-              certain tips to ensure that your batteries last longer. Your
-              installer will help you these so that you can the most out of your
-              purchase. We also provide delivery service if required.
+              Regular maintenance is crucial to ensure the reliable and
+              efficient performance of inverter systems. Inverters play a vital
+              role in converting direct current (DC) into alternating current
+              (AC), making them an integral component in various applications,
+              including solar power, uninterruptible power supplies (UPS), and
+              industrial equipment. Proper maintenance not only extends the
+              lifespan of the inverter but also reduces the risk of unexpected
+              breakdowns.
             </p>
           </div>
           <div className="my-auto hidden lg:inline-block ml-3">
@@ -57,14 +57,11 @@ export default function Services() {
           <div className="">
             <h1 className="text-[20px]">Support</h1>
             <p className="mt-[20px]">
-              We recommend that you always use a Platypus Solar Energy approved
-              installer for your installations. Our installers will help you
-              understand how the inverter works and under what condition it
-              should operate. There are certain guidelines such as which
-              appliances should not be used with your inverter system as well as
-              certain tips to ensure that your batteries last longer. Your
-              installer will help you these so that you can the most out of your
-              purchase. We also provide delivery service if required.
+              At Platypus Solar Energy, we understand that your power needs are
+              essential, and the performance of your inverter system is crucial
+              to meeting those needs. We take pride in not only delivering
+              top-tier inverter solutions but also in offering exceptional
+              customer support to ensure that you have peace of mind.
             </p>
           </div>
           <div className="my-auto hidden lg:inline-block ml-3">{Support}</div>

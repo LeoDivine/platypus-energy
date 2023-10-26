@@ -9,8 +9,8 @@ export default function Footer() {
   return (
     <>
       <div className="bg-[#333333] justify-between lg:items-start flex-col lg:flex-row flex p-[40px] lg:p-[30px]">
-        <div className="xl:w-[20%] md:w-[30%] flex flex-col gap-4">
-          <span className="text-[#e2b22d] flex gap-[20px]">
+        <div className="xl:w-[25%] md:w-[30%] flex flex-col gap-4">
+          <span className="text-[#7a7463] flex gap-[20px]">
             {LocationIcon}{" "}
             <p className="text-white">
               5th Avenue, O Close, Festac Town, Lagos, Nigeria
@@ -18,15 +18,24 @@ export default function Footer() {
           </span>
           <hr className="border-[#e2b22d] hidden lg:inline" />
           <span className="gap-[20px] text-[#e2b22d] flex">
-            {PhoneIcon} <p className="text-white">0806 4150 715</p>{" "}
+            {PhoneIcon}{" "}
+            <Link href="+2348064150715">
+              <p className="text-white">0806 4150 715</p>{" "}
+            </Link>
+            <Link href="tel:+234906939152">
+              <p className="text-white">0906 9390 152</p>{" "}
+            </Link>
           </span>
           <hr className="border-[#e2b22d] hidden lg:inline" />
 
           <span className="gap-[20px] text-[#e2b22d] flex">
             {EmailIcon}{" "}
             <p className="text-white">
-              <Link className="hover:text-[#e2b22d] transition-all" href="">
-                teeservice@gmail.com
+              <Link
+                className="hover:text-[#e2b22d] transition-all"
+                href="mailto:platypussolarenergy@gmail.com?subject=Enquiries"
+              >
+                platypussolarenergy@gmail.com
               </Link>
             </p>{" "}
           </span>

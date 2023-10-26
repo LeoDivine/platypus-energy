@@ -59,7 +59,7 @@ export default function About() {
                 </Link>
                 <Link
                   className="mt-[10px] hover:underline"
-                  href="+2348032802175"
+                  href="tel:+2348032802175"
                 >
                   <p>+234 803 2802 175</p>
                 </Link>

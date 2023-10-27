@@ -13,6 +13,7 @@ export default function Projects() {
         <ProjectInfo image="/image1.jpg" />
         <ProjectInfo image="/image1.jpg" />
         <ProjectInfo image="/image1.jpg" />
+        <ProjectInfo image="/image1.jpg" />
       </div>
     </div>
   );

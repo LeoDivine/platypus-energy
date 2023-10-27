@@ -19,8 +19,8 @@ export default function Footer() {
           <hr className="border-[#e2b22d] hidden lg:inline" />
           <span className="gap-[20px] text-[#e2b22d] flex">
             {PhoneIcon}{" "}
-            <Link href="+2348064150715">
-              <p className="text-white">0806 4150 715</p>{" "}
+            <Link href="tel:+2348032802175">
+              <p className="text-white">080 328 02175</p>{" "}
             </Link>
             <Link href="tel:+234906939152">
               <p className="text-white">0906 9390 152</p>{" "}

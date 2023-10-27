@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <div className="bg-[#333333] w-full absolute z-10 lg:flex-row flex-col flex justify-between py-[20px] lg:px-[20px]">
       <div className="flex items-center justify-between px-[20px] text-white">
-        <Image src="/pp.png" width="60" height="80" alt="Logo" />
+        <Image src="/pp.png" width="80" height="80" alt="Logo" />
         <div onClick={() => setOpen(!open)}>
           {" "}
           {open ? (

@@ -19,10 +19,6 @@ export const LINK_INFORMATION = [
     link: "/services",
   },
   {
-    title: "Projects",
-    link: "/projects",
-  },
-  {
     title: "Contact",
     link: "/about#contact",
   },
